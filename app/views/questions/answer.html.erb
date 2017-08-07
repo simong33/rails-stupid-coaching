@@ -1,7 +1,13 @@
-<h1><%= params[:question] %></h1>
-<p>You</p>
-
-<h1><%=@answer%></h1>
-<p>Your coach</p>
-
-<a href="/ask">Ask a new question</a>
+<div class="container">
+  <div class="row">
+    <div class="col-xs-6 col-xs-offset-3">
+      <h1><%= params[:question] %></h1>
+      <p>You</p>
+    </div>
+    <div class="col-xs-6">
+      <h1><%=@answer%></h1>
+      <p>Your coach</p>
+      <a href="/ask">Ask a new question</a>
+    </div>
+  </div>
+</div>
